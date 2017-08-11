@@ -15,6 +15,7 @@
 		0A225E471F3D8405000F02A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A225E451F3D8405000F02A1 /* LaunchScreen.storyboard */; };
 		0A225E521F3D8405000F02A1 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A225E511F3D8405000F02A1 /* AttributorTests.m */; };
 		0A225E5D1F3D8405000F02A1 /* AttributorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A225E5C1F3D8405000F02A1 /* AttributorUITests.m */; };
+		0A2A46BF1F3DA4700045387E /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A46BE1F3DA4700045387E /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A225E581F3D8405000F02A1 /* AttributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A225E5C1F3D8405000F02A1 /* AttributorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorUITests.m; sourceTree = "<group>"; };
 		0A225E5E1F3D8405000F02A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2A46BD1F3DA4700045387E /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		0A2A46BE1F3DA4700045387E /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				0A225E431F3D8405000F02A1 /* Assets.xcassets */,
 				0A225E451F3D8405000F02A1 /* LaunchScreen.storyboard */,
 				0A225E481F3D8405000F02A1 /* Info.plist */,
+				0A2A46BD1F3DA4700045387E /* TextStatsViewController.h */,
+				0A2A46BE1F3DA4700045387E /* TextStatsViewController.m */,
 				0A225E371F3D8405000F02A1 /* Supporting Files */,
 			);
 			path = Attributor;
@@ -276,6 +281,7 @@
 				0A225E3F1F3D8405000F02A1 /* ViewController.m in Sources */,
 				0A225E3C1F3D8405000F02A1 /* AppDelegate.m in Sources */,
 				0A225E391F3D8405000F02A1 /* main.m in Sources */,
+				0A2A46BF1F3DA4700045387E /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TextStatsViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *textViewBody;
@@ -16,7 +17,17 @@
 
 @implementation ViewController
 
--(void) viewDidLoad
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"Show Statistics"]){
+        if([segue.destinationViewController isKindOfClass:[TextStatsViewController class]]){
+            TextStatsViewController *tsvc = (TextStatsViewController *)segue.destinationViewController;
+            tsvc.textToAnalyze = self.textViewBody.textStorage;
+        }
+    }
+}
+
+-(void)viewDidLoad
 {
     [super viewDidLoad];
     NSMutableAttributedString *title = [[NSMutableAttributedString alloc] initWithString: self.outlineButton.currentTitle];
